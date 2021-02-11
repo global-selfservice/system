@@ -1,5 +1,5 @@
 module "eks" {
-  source = "github.com/global-devops-terraform/k8s-system?ref=v0.55.0"
+  source = "github.com/global-devops-terraform/k8s-system?ref=v0.56.0"
 
   cluster_name        = local.cluster_name
   zone_name           = local.domain_name
